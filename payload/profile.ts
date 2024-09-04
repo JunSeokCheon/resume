@@ -3,7 +3,7 @@ import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/sample_tux.png';
+import image from '../asset/junseok.jpg';
 
 const profile: IProfile.Payload = {
   disable: false,
@@ -16,12 +16,12 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
-      title: 'tux@linux.org',
-      link: 'mailto:tux@linux.org',
+      title: 'goosw775@naver.com',
       icon: faEnvelope,
+      badge: true,
     },
     {
-      title: 'Please contact me by email',
+      title: '010-3055-7309',
       icon: faPhone,
       badge: true,
     },
