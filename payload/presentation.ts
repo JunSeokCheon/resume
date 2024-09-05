@@ -65,7 +65,7 @@ const presentation: IPresentation.Payload = {
     },
     {
       title: '알고리즘 및 코딩 테스트 문제 풀이 스터디',
-      subTitle: '백준/프로그래머스 문제 및 알고리즘 학습',
+      subTitle: '백준/프로그래머스 문제 풀이 및 알고리즘 학습',
       startedAt: '2023-01',
       endedAt: '2023-12',
       descriptions: [
@@ -85,8 +85,8 @@ const presentation: IPresentation.Payload = {
       ],
     },
     {
-      title: '코딩 테스트 스터디',
-      subTitle: '백준/프로그래머스 문제 및 알고리즘 학습',
+      title: '코딩 테스트 기초 스터디',
+      subTitle: '기초 코딩 테스트 문제 풀이 및 알고리즘 학습',
       startedAt: '2022-01',
       endedAt: '2022-06',
       descriptions: [
@@ -99,6 +99,9 @@ const presentation: IPresentation.Payload = {
         },
         {
           content: '실제 코딩 테스트도 참가하여 서로의 풀이 방법 공유',
+        },
+        {
+          content: '엘리스 AI 트랙 4기 교육 도중 자발적인 스터디 모집 후 수행',
         },
         {
           content: 'Github:',
