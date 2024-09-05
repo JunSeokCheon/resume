@@ -4,67 +4,31 @@ const openSource: IOpenSource.Payload = {
   disable: false,
   list: [
     {
-      title: 'Linux Kernal',
+      title: '가짜연구소',
       descriptions: [
         {
-          content: 'Regular contributor to kernel patches.',
+          content: '2024년 9기 팀원(러너) 참여 예정',
         },
         {
-          content: 'Active member of kernel security audit team.',
+          content: '2024년 8기 팀원(러너) 참여',
+        },
+        {
+          content: 'https://pseudolab.github.io/about',
+          href: 'https://pseudolab.github.io/about',
         },
       ],
     },
     {
-      title: 'GNOME',
+      title: '부스트코스',
       descriptions: [
         {
-          content: 'Contributor to UX improvements for system utilities.',
-        },
-        {
-          content: 'https://github.com/GNOME',
-          href: 'https://github.com/GNOME',
-        },
-      ],
-    },
-    {
-      title: 'node',
-      descriptions: [
-        { content: 'Node.js JavaScript runtime' },
-        { content: 'Contributor' },
-        {
-          content: 'https://github.com/nodejs/node',
-          href: 'https://github.com/nodejs/node',
-        },
-        {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nodejs/node.svg?style=popout',
-        },
-      ],
-    },
-    {
-      title: 'NestJS',
-      descriptions: [
-        {
-          content: 'A progressive Node.js framework',
+          content: '2023년 AI basic 9기 참여',
         },
         {
           content:
-            'for building efficient, scalable, and enterprise-grade server-side applications',
-        },
-        {
-          content: 'Contributor',
-        },
-        {
-          content: 'https://github.com/nestjs/nest',
-          href: 'https://github.com/nestjs/nest',
-        },
-        {
-          content: 'Monthly Download: ',
-          postImage: 'https://img.shields.io/npm/dm/@nestjs/core.svg',
-        },
-        {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nestjs/nest.svg?style=popout',
+            'https://m.post.naver.com/viewer/postView.naver?volumeNo=34942080&memberNo=34635212',
+          href:
+            'https://m.post.naver.com/viewer/postView.naver?volumeNo=34942080&memberNo=34635212',
         },
       ],
     },

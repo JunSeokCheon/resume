@@ -26,17 +26,12 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      link: 'https://github.com/uyu423/resume-nextjs',
+      link: 'https://github.com/JunSeokCheon',
       icon: faGithub,
-    },
-    {
-      link: 'https://www.facebook.com/groups/ubuntu.ko',
-      icon: faFacebook,
     },
   ],
   notice: {
-    title:
-      "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
+    title: '저에게 용무가 있으신 분은 이메일이나 휴대전화로 연락 부탁드립니다.',
     icon: faBell,
   },
 };

@@ -19,11 +19,22 @@ export default function PresentationRow({
 }
 
 function serialize(item: IPresentation.Item): IRow.Payload {
+  const DATE_FORMAT = Util.LUXON_DATE_FORMAT;
+  const startedAt = DateTime.fromFormat(item.startedAt, DATE_FORMAT.YYYY_LL).toFormat(
+    DATE_FORMAT.YYYY_DOT_LL,
+  );
+  const title = (() => {
+    if (item.endedAt) {
+      const endedAt = DateTime.fromFormat(item.endedAt, DATE_FORMAT.YYYY_LL).toFormat(
+        DATE_FORMAT.YYYY_DOT_LL,
+      );
+      return `${startedAt} ~ ${endedAt}`;
+    }
+    return startedAt;
+  })();
   return {
     left: {
-      title: DateTime.fromFormat(item.at, Util.LUXON_DATE_FORMAT.YYYY_LL).toFormat(
-        Util.LUXON_DATE_FORMAT.YYYY_DOT_LL,
-      ),
+      title,
     },
     right: {
       ...item,
