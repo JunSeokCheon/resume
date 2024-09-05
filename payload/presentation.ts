@@ -91,7 +91,8 @@ const presentation: IPresentation.Payload = {
       endedAt: '2022-06',
       descriptions: [
         {
-          content: '첫 팀장으로써의 스터디로 책임감을 느끼고 어떻게 하면 모두가 학습을 잘할까 고민',
+          content:
+            '처음 팀장을 맡음으로써의 스터디로 책임감을 느끼고 어떻게 하면 모두가 학습을 잘할까 고민',
         },
         {
           content: '단순 문제 풀이형식이 아닌 라이브 코딩으로 실제 코딩 테스트와 유사하게 진행',
