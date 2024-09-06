@@ -33,13 +33,13 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '해운사 내부 RAG 챗봇 서비스 비즈니스 기획 및 개발',
+      title: '해운사 내부 RAG 부서 챗봇 서비스 비즈니스 기획 및 개발',
       startedAt: '2023-11',
       endedAt: '2024-06',
       where: '데이터하이브',
       descriptions: [
         {
-          content: '해운사 내부에서만 사용하는 RAG 챗봇 서비스 개발',
+          content: '해운사 내부에서만 사용하는 RAG 부서 챗봇 서비스 개발',
         },
         {
           content: '파일 유형별 데이터 전처리 로직 개발',
@@ -91,7 +91,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '해운사 화주 챗봇 레거시 코드 리펙토링 및 구조 개편',
+      title: '해운사 화주 챗봇 레거시 코드 리펙터링 및 구조 개편',
       startedAt: '2022-12',
       endedAt: '2023-02',
       where: '데이터하이브',
