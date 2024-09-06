@@ -55,7 +55,6 @@ const experience: IExperience.Payload = {
         'Oracle',
         'nginx',
         'Docker',
-        'Rule-based',
         'RAG',
         'Prompt Engineering',
         'Vector Store',

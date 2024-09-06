@@ -28,6 +28,11 @@ const etc: IEtc.Payload = {
       startedAt: '2021-06',
     },
     {
+      title: '정보처리기사',
+      subTitle: '정보처리기사 자격증',
+      startedAt: '2020-11',
+    },
+    {
       title: '육군 병장 만기 전역',
       subTitle: '논산 훈련소',
       startedAt: '2016-04',
