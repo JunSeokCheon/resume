@@ -5,10 +5,10 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: '가짜연구소 8/9기 러너',
+      title: '가짜연구소 8기 러너',
       subTitle: 'LLM/Langchain 학습 스터디',
       startedAt: '2024-03',
-      endedAt: '2024-12',
+      endedAt: '2024-08',
     },
     {
       title: '부스트코스 AI basic 9기',

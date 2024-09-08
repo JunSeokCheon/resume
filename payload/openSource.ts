@@ -7,9 +7,6 @@ const openSource: IOpenSource.Payload = {
       title: '가짜연구소',
       descriptions: [
         {
-          content: '2024년 9기 팀원(러너) 참여 예정',
-        },
-        {
           content: '2024년 8기 팀원(러너) 참여',
         },
         {
