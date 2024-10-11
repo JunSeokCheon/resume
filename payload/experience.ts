@@ -8,6 +8,7 @@ const experience: IExperience.Payload = {
       title: '크레타랩스',
       position: 'AI Engineer',
       startedAt: '2024-07',
+      endedAt: '2024-09',
       descriptions: [
         '(이전 데이터하이브와 같은 회사이므로 동일한 근무 조건 및 같은 업무 수행)',
         '챗봇/RPA/SW 개발 스타트업(9, 개발팀 - 7명)',

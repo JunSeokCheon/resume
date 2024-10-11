@@ -6,6 +6,7 @@ const project: IProject.Payload = {
     {
       title: '데이터하이브 Stiv Studio 챗봇 서비스 비즈니스 기획 및 개발',
       startedAt: '2024-07',
+      endedAt: '2024-09',
       where: '데이터하이브, 크레타랩스',
       descriptions: [
         {
