@@ -25,7 +25,7 @@ const programmingLanguages: ISkill.Skill = {
 };
 
 const FameworksLibrariesDevelopment: ISkill.Skill = {
-  category: 'Fameworks & Libraries',
+  category: 'Frameworks & Libraries',
   items: [
     {
       title: 'Tensorflow',
